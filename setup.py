@@ -38,10 +38,12 @@ with open('README.rst') as readme:
           keywords='beautify, code, format, formatter, reformat, style',
           py_modules=['pyformat'],
           zip_safe=False,
-          install_requires=['autoflake>=0.6.6',
-                            'autopep8>=1.2.2',
-                            'docformatter>=0.7',
-                            'unify>=0.2'],
+          install_requires=[
+              'autoflake>=1.4',
+              'autopep8>=1.6.0',
+              'docformatter>=1.4',
+              'unify>=0.5'
+          ],
           entry_points={
               'console_scripts': ['pyformat = pyformat:main']},
           test_suite='test_pyformat')

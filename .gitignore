@@ -10,3 +10,4 @@ dist/
 htmlcov/
 *.egg*/
 .coverage
+.idea/
