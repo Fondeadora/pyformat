@@ -41,7 +41,7 @@ with open('README.rst') as readme:
           zip_safe=False,
           install_requires=[
               'autoflake>=1.4',
-              'autopep8>=1.5.0',
+              'autopep8==1.5.7',
               'docformatter>=1.4',
               'unify>=0.5'
           ],
