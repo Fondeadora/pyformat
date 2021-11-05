@@ -38,7 +38,7 @@ import docformatter
 import unify
 
 
-__version__ = '1.0a0'
+__version__ = '0.7.1'
 
 
 def formatters(aggressive, apply_config, filename='',
